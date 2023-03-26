@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   
-  <dependencies>
+  
     <dependency>
       <plugin>
          <groupId>org.apache.maven.plugins</groupId>
@@ -28,7 +28,7 @@
          </configuration>
        </plugin>
      <dependency>
-   <dependencies>
+   
     
  <build>
     <finalName>ecomamazon</finalName>
