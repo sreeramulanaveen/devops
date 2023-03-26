@@ -24,7 +24,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.2</version>
             <configuration>
-                <outputDirectory>webapps</outputDirectory>
+                <outputDirectory>target</outputDirectory>
                 <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
