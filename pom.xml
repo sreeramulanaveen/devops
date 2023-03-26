@@ -16,15 +16,20 @@
     </dependency>
   </dependencies>
   
-    <plugin>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>2.6</version>
-      <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-      </configuration>
-   </plugin>
-   
- 
+  <dependencies>
+    <dependency>
+      <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-war-plugin</artifactId>
+         <version>3.3.2</version>
+         <type>maven-plugin</type>
+         <configuration>
+              <failOnMissingWebXml>false</failOnMissingWebXml>
+         </configuration>
+       </plugin>
+     <dependency>
+   <dependencies>
+    
  <build>
     <finalName>ecomamazon</finalName>
  </build>
